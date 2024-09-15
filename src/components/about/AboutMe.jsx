@@ -42,14 +42,15 @@ const AboutMe = () => {
 
          {/* Resume Buttons */}
          <div className="resume-buttons-container">
-         // eslint-disable-next-line no-undef
+         
          <a href={`${process.env.PUBLIC_URL}/ChennuHunaySubhash97.pdf`} target="_blank" rel="noopener noreferrer">
   View Resume
 </a>
 
-          <a href={`${process.env.PUBLIC_URL}/ChennuHunaySubhash97.pdf`} download className="resume-button download-button">
-            Download Resume
-          </a>
+<a href={`${process.env.PUBLIC_URL}/ChennuHunaySubhash97.pdf`} download className="resume-button download-button">
+  Download Resume
+</a>
+
         </div>
         </div>
       </section>

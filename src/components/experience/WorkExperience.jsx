@@ -1,14 +1,14 @@
 // eslint-disable-next-line no-unused-vars
 import React from 'react';
 import './WorkExperience.css';
-import myImage from '/src/images/virtusa_logo.jpeg';
+import logo from '/src/images/virtusa_logo.jpeg';
 const WorkExperience = () => {
   const experiences = [
     {
       company: 'ABC Software Solutions',
       role: 'Senior Full Stack Developer',
       duration: 'June 2022 - Present',
-      image: {myImage}, // Path to company logo
+      image: logo, // Path to company logo
       responsibilities: [
         'Lead a team of developers to design and implement full-stack web applications using React, Node.js, and MongoDB.',
         'Collaborated with UX designers to improve user interfaces, increasing user engagement by 30%.',
