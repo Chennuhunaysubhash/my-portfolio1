@@ -1,0 +1,105 @@
+.work-experience-section {
+    padding: 60px 20px;
+    background: linear-gradient(135deg, #282c34, #282c34);
+    color: #fff;
+  }
+  
+  .container {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .section-title {
+    font-size: 2.8rem;
+    color: #fff;
+    margin-bottom: 50px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    position: relative;
+  }
+  
+  .section-title::after {
+    content: '';
+    width: 60px;
+    height: 3px;
+    background-color: #fff;
+    display: block;
+    margin: 10px auto;
+  }
+  
+  .experience-item {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 30px; /* Added gap for spacing between image and content */
+  }
+  
+  .experience-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
+  }
+  
+  .experience-image {
+    width: 100px; /* Increased size for better visibility */
+    height: 100px; /* Ensure aspect ratio */
+    border-radius: 50%; /* Circular style */
+    object-fit: cover; /* Ensures image covers the area */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Subtle shadow */
+    padding: 10px; /* Padding around the image */
+    background-color: #fff; /* Background color to create space around the image */
+  }
+  
+  .experience-details {
+    text-align: left;
+  }
+  
+  .experience-company {
+    font-size: 1.8rem;
+    color: #fff;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .experience-role {
+    font-size: 1.3rem;
+    color: #fff;
+    margin-bottom: 5px;
+  }
+  
+  .experience-duration {
+    font-size: 1.1rem;
+    color: #c4e0e5;
+    margin-bottom: 20px;
+  }
+  
+  .experience-responsibilities {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .experience-responsibilities li {
+    font-size: 1.2rem;
+    color: #fff;
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 25px;
+  }
+  
+  .experience-responsibilities li::before {
+    content: "•";
+    color: #fff;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 1.5rem;
+  }
+  

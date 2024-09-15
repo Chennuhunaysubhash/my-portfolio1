@@ -1,0 +1,81 @@
+.certifications-section {
+    padding: 60px 20px;
+    background: #282c34;
+    color: #fff;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .section-title {
+    font-size: 2.8rem;
+    color: #61dafb;
+    margin-bottom: 50px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    position: relative;
+  }
+  
+  .section-title::after {
+    content: '';
+    width: 60px;
+    height: 3px;
+    background-color: #61dafb;
+    display: block;
+    margin: 10px auto;
+  }
+  
+  .certifications-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .certification-item {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .certification-item:hover {
+    transform: scale(1.03);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+  }
+  
+  .certification-title {
+    font-size: 1.6rem;
+    color: #61dafb;
+    margin: 0 0 10px;
+  }
+  
+  .certification-issuer,
+  .certification-year {
+    margin: 5px 0;
+    font-size: 1.2rem;
+    color: #c4e0e5;
+  }
+  
+  .certification-link {
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #61dafb;
+    text-decoration: none;
+    border: 1px solid #61dafb;
+    border-radius: 5px;
+    padding: 8px 15px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .certification-link:hover {
+    background-color: #61dafb;
+    color: #282c34;
+  }
+  

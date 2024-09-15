@@ -1,0 +1,74 @@
+
+
+.App {
+  text-align: center;
+}
+
+header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+.nav-style {
+  margin-top: 10px;
+}
+
+.nav-style a {
+  color: #61dafb;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 1.2rem;
+  padding: 10px;
+  transition: color 0.3s ease, background-color 0.3s ease;
+  border-radius: 5px;
+}
+
+.nav-style a:hover {
+  color: #fff;
+  background-color: #61dafb;
+  text-decoration: none;
+}
+
+nav a {
+  margin: 0 15px;
+  color: white;
+  text-decoration: none;
+}
+
+section {
+  padding: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+form label {
+  margin-bottom: 10px;
+}
+
+form input, form textarea {
+  margin-bottom: 10px;
+  padding: 10px;
+  width: 100%;
+  max-width: 400px;
+}
+
+form button {
+  padding: 10px 20px;
+  background-color: #61dafb;
+  border: none;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #282c34;
+  color: white;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}

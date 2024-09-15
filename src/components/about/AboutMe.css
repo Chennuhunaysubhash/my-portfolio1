@@ -1,0 +1,107 @@
+.about-me-section {
+    padding: 50px;
+    background-color: #f9f9f9;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .about-me-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .about-me-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Keeps the circular shape */
+    margin-right: 20px;
+    object-fit: cover;
+    border: 5px solid #0077b5; /* Blue border */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Adds shadow */
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+  }
+  
+  .about-me-image:hover {
+    transform: rotate(5deg) scale(1.05); /* Slight rotation and zoom on hover */
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.4); /* Stronger shadow on hover */
+  }
+  
+  
+  .about-me-title {
+    font-size: 2.5rem;
+    color: #333;
+  }
+  
+  .about-me-text {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #555;
+  }
+  
+  /* Social Media Links */
+  .social-links {
+    margin-top: 20px;
+  }
+  
+  .social-link {
+    margin-right: 20px;
+    color: #555;
+    transition: color 0.3s;
+  }
+  
+  .social-link:hover {
+    color: #0077b5; /* LinkedIn color for hover */
+  }
+  
+  .social-link:nth-child(2):hover {
+    color: #333; /* GitHub color for hover */
+  }
+  
+  /* LeetCode Icon Styling */
+  .leetcode-icon {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+  }
+  
+  .leetcode-icon:hover {
+    filter: brightness(1.2);
+  }
+  
+  /* Resume Button Styling */
+  .resume-buttons-container {
+    margin-top: 30px;
+  }
+  
+  .resume-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0077b5;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+    margin-right: 15px;
+  }
+  
+  .resume-button:hover {
+    background-color: #005582;
+  }
+  
+  .view-button {
+    background-color: #28a745; /* Green button for viewing */
+  }
+  
+  .view-button:hover {
+    background-color: #218838;
+  }
+  
+  .download-button {
+    background-color: #0077b5; /* Blue button for download */
+  }
+  
