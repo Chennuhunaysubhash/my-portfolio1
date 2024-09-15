@@ -42,11 +42,11 @@ const AboutMe = () => {
 
          {/* Resume Buttons */}
          <div className="resume-buttons-container">
-         <a href="/ChennuHunaySubhash97.pdf" target="_blank" rel="noopener noreferrer" className="resume-button view-button">
+         <a href="https://chennuhunaysubhash.github.io/my-portfolio1/ChennuHunaySubhash97.pdf" target="_blank" rel="noopener noreferrer" className="resume-button view-button">
   View Resume
 </a>
 
-<a href="/ChennuHunaySubhash97.pdf" download className="resume-button download-button">
+<a href="https://chennuhunaysubhash.github.io/my-portfolio1/ChennuHunaySubhash97.pdf" download className="resume-button download-button">
   Download Resume
 </a>
 
