@@ -4,7 +4,7 @@
 import React from 'react';
 import './AboutMe.css'; // Import the CSS file for styling
 import { FaLinkedin, FaGithub } from 'react-icons/fa'; 
-import myImage from './src/images/hunay.jpg';
+import myImage from '/src/images/hunay.jpg';
 const AboutMe = () => {
     return (
       <section className="about-me-section">
