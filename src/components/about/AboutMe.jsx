@@ -1,3 +1,5 @@
+/* eslint-disable no-undef */
+/* eslint-disable react/jsx-no-comment-textnodes */
 /* eslint-disable react/no-unescaped-entities */
 // src/AboutMe.jsx
 // eslint-disable-next-line no-unused-vars
@@ -40,9 +42,11 @@ const AboutMe = () => {
 
          {/* Resume Buttons */}
          <div className="resume-buttons-container">
-         <a href={`${process.env.PUBLIC_URL}/ChennuHunaySubhash97.pdf`} target="_blank" className="resume-button view-button">
-            View Resume
-          </a>
+         // eslint-disable-next-line no-undef
+         <a href={`${process.env.PUBLIC_URL}/ChennuHunaySubhash97.pdf`} target="_blank" rel="noopener noreferrer">
+  View Resume
+</a>
+
           <a href={`${process.env.PUBLIC_URL}/ChennuHunaySubhash97.pdf`} download className="resume-button download-button">
             Download Resume
           </a>
