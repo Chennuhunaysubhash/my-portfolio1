@@ -42,14 +42,15 @@ const AboutMe = () => {
 
          {/* Resume Buttons */}
          <div className="resume-buttons-container">
-         
-         <a href={`${process.env.PUBLIC_URL}/ChennuHunaySubhash97.pdf`} target="_blank" rel="noopener noreferrer">
+         <a href="/ChennuHunaySubhash97.pdf" target="_blank" rel="noopener noreferrer" className="resume-button view-button">
   View Resume
 </a>
 
-<a href={`${process.env.PUBLIC_URL}/ChennuHunaySubhash97.pdf`} download className="resume-button download-button">
+<a href="/ChennuHunaySubhash97.pdf" download className="resume-button download-button">
   Download Resume
 </a>
+
+    
 
         </div>
         </div>
