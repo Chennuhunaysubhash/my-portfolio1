@@ -2,17 +2,26 @@
 import React from 'react';
 import './WorkExperience.css';
 import logo from '/src/images/virtusa_logo.jpeg';
+
 const WorkExperience = () => {
   const experiences = [
     {
-      company: 'ABC Software Solutions',
-      role: 'Senior Full Stack Developer',
+      company: 'Virtusa Corporation',
+      role: 'Java Full Stack Developer',
       duration: 'June 2022 - Present',
       image: logo, // Path to company logo
       responsibilities: [
-        'Lead a team of developers to design and implement full-stack web applications using React, Node.js, and MongoDB.',
+        'Lead a team of developers to design and implement full-stack web applications using React, Java, and Spring Boot.',
         'Collaborated with UX designers to improve user interfaces, increasing user engagement by 30%.',
-        'Optimized backend performance, reducing API response time by 25%.'
+        'Optimized backend performance using Java and Spring Boot, reducing API response time by 25%.',
+        'Develop and maintain backend services using Java, Spring Boot, Hibernate, and JPA.',
+        'Implement RESTful APIs for communication between the frontend and backend.',
+        'Ensure security, data validation, and authentication (OAuth, JWT).',
+        'Work with Git for version control and collaborate within Agile teams using tools like JIRA.',
+        'Deploy applications to cloud platforms like AWS and work with CI/CD pipelines using Jenkins and Docker.',
+        'Monitor and troubleshoot production issues to ensure high performance and scalability.',
+        'Write unit tests using JUnit and perform integration testing to maintain application quality.',
+        'Stay updated on new technologies, tools, and best practices in full-stack development.'
       ]
     }
   ];

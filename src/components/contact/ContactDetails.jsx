@@ -13,56 +13,56 @@ const ContactDetails = () => {
             <FaEnvelope className="contact-icon" />
             <div className="contact-content">
               <h3>Email</h3>
-              <p>your-email@example.com</p>
+              <p>hunaysubhash97@gmail.com</p>
             </div>
           </div>
           <div className="contact-item">
             <FaPhone className="contact-icon" />
             <div className="contact-content">
               <h3>Phone</h3>
-              <p>(123) 456-7890</p>
+              <p>+91 8074243933</p>
             </div>
           </div>
           <div className="contact-item">
             <FaMapMarkerAlt className="contact-icon" />
             <div className="contact-content">
               <h3>Address</h3>
-              <p>123 Your Street, Your City, Your State, 12345</p>
+              <p>Dno: 8-179, Sivalayam Street, Dirusumarru, Bhimavaram, West Godavari, Andhra Pradesh, India, 534239</p>
             </div>
           </div>
-          <a href="https://www.linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer" className="contact-item">
+          <a href="https://www.linkedin.com/in/hunaysubhash-chennu-b65560202" target="_blank" rel="noopener noreferrer" className="contact-item">
             <FaLinkedin className="contact-icon" />
             <div className="contact-content">
               <h3>LinkedIn</h3>
-              <p>@your-profile</p>
+              <p>Hunaysubhash Chennu</p>
             </div>
           </a>
-          <a href="https://hub.docker.com/u/your-profile" target="_blank" rel="noopener noreferrer" className="contact-item">
+          <a href="https://hub.docker.com/u/hunayhub97" target="_blank" rel="noopener noreferrer" className="contact-item">
             <FaDocker className="contact-icon" />
             <div className="contact-content">
               <h3>Docker Hub</h3>
-              <p>@your-profile</p>
+              <p>Hunaysubhash Chennu</p>
             </div>
           </a>
-          <a href="https://github.com/your-profile" target="_blank" rel="noopener noreferrer" className="contact-item">
+          <a href="https://github.com/Chennuhunaysubhash" target="_blank" rel="noopener noreferrer" className="contact-item">
             <FaGithub className="contact-icon" />
             <div className="contact-content">
               <h3>GitHub</h3>
-              <p>@your-profile</p>
+              <p>Chennuhunaysubhash</p>
             </div>
           </a>
-          <a href="https://leetcode.com/your-profile" target="_blank" rel="noopener noreferrer" className="contact-item">
+          <a href="https://leetcode.com/u/Hunaysubhash_Chennu/" target="_blank" rel="noopener noreferrer" className="contact-item">
             <FaCode className="contact-icon" />
             <div className="contact-content">
               <h3>LeetCode</h3>
-              <p>@your-profile</p>
+              <p>Hunay Subhash Chennu</p>
             </div>
           </a>
-          <a href="https://www.sololearn.com/profile/your-profile" target="_blank" rel="noopener noreferrer" className="contact-item">
+          <a href="https://www.sololearn.com/profile/11893286/?ref=app" target="_blank" rel="noopener noreferrer" className="contact-item">
             <FaCode className="contact-icon" />
             <div className="contact-content">
               <h3>SoloLearn</h3>
-              <p>@your-profile</p>
+              <p>hunaysubhash chennu</p>
             </div>
           </a>
         </div>

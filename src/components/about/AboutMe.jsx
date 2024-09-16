@@ -14,15 +14,10 @@ const AboutMe = () => {
         <img src={myImage} alt="Your Name" className="about-me-image" />
           <h2 className="about-me-title">About Me</h2>
           <p className="about-me-text">
-            Hi, I'm [Your Name], a passionate software developer with expertise in full-stack development. 
-            I specialize in creating efficient, scalable, and user-friendly web applications using technologies like 
-            React, SpringBoot, Hibernate, and MySQL. I thrive on problem-solving, coding challenges, and continuously 
-            expanding my knowledge in modern development practices.
+          Hi, I'm Hunay Subhash Chennu, a dedicated and passionate software developer with a strong background in Java Full Stack development, specializing in creating efficient, scalable, and user-friendly web applications. With expertise in technologies like React, Spring Boot, Hibernate, and MySQL, I excel in designing and implementing robust solutions that meet the needs of modern web applications.
           </p>
           <p className="about-me-text">
-            I have successfully led projects, such as the 'Online Movie Ticket Booking System,' where I worked as 
-            a Team Lead, utilizing SpringBoot, Hibernate, and MySQL. I take pride in my ability to manage end-to-end 
-            development, from customer registration to payment processing and booking cancellations.
+          My proficiency in Java Full Stack development enables me to tackle complex projects with ease, from backend development using Spring Boot and Hibernate to frontend development using React and JavaScript. I'm well-versed in leveraging the power of JavaScript to create dynamic and interactive user interfaces, ensuring seamless user experiences.
           </p>
           <p className="about-me-text">
             I’m always excited to work on new projects and explore innovative solutions to challenging problems. Let's connect!

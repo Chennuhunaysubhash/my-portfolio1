@@ -6,14 +6,14 @@ const certifications = [
   {
     title: "Certified Java Developer",
     issuer: "Oracle",
-    year: "2023",
-    url: "/JavaCertificate.pdf",
+    year: "2022",
+    url: "https://chennuhunaysubhash.github.io/my-portfolio1/JavaCertificate.pdf",
   },
   {
-    title: "Certified ScrumMaster",
-    issuer: "Scrum Alliance",
-    year: "2021",
-    url: "https://www.scrumalliance.org/",
+    title: "Low-Level Design 0f Payment App",
+    issuer: "Scaler",
+    year: "2024",
+    url: "https://chennuhunaysubhash.github.io/my-portfolio1/lld-scaler.pdf",
   },
   // Add more certifications as needed
 ];
@@ -22,7 +22,7 @@ const Certifications = () => {
   return (
     <section className="certifications-section">
       <div className="container">
-        <h2 className="section-title">Certifications</h2>
+        <h2 className="section-title">Certified Achievements</h2>
         <ul className="certifications-list">
           {certifications.map((cert, index) => (
             <li key={index} className="certification-item">
