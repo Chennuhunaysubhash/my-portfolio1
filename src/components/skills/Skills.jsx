@@ -22,7 +22,7 @@ const Skills = () => {
     { name: 'CSS', icon: <SiCss3 /> },
     { name: 'HTML', icon: <SiHtml5 /> },
     { name: 'TypeScript', icon: <SiTypescript /> },
-    { name: 'MongoDB', icon: <SiMongodb /> },
+   
     { name: 'Git', icon: <SiGit /> },
     { name: 'Docker', icon: <FaDocker /> },
     { name: 'Kubernetes', icon: <SiKubernetes /> },
