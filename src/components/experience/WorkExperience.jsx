@@ -8,7 +8,7 @@ const WorkExperience = () => {
     {
       company: 'Virtusa Corporation',
       role: 'Java Full Stack Developer',
-      duration: 'June 2022 - Present',
+      duration: 'December 2021 - Present',
       image: logo, // Path to company logo
       responsibilities: [
         'Lead a team of developers to design and implement full-stack web applications using React, Java, and Spring Boot.',
