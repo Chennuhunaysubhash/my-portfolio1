@@ -10,7 +10,7 @@ import ToolsAndMethodologies from './sub-skills/ToolsAndMethodologies';
 const Skills = () => {
   return (
     <section className="skills-section">
-      <h2>Skills</h2>
+      <h2 className="section-title">Skills</h2>
       <div className="skills-container">
         <ProgrammingSkills/>
         <BackendTechnologies/>

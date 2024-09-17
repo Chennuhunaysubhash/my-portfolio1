@@ -36,6 +36,26 @@
   color: #ff5722;
   transform: scale(1.05);
 }
+.section-title {
+  font-size: 2.8rem;
+  color: #61dafb;
+  margin-bottom: 50px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  position: relative;
+  text-align: center; /* added text-align */
+}
+
+.section-title::after {
+  content: '';
+  width: 60px;
+  height: 3px;
+  background-color: #61dafb;
+  display: block;
+  margin: 10px auto;
+}
+
 
 .skills-category ul {
   list-style-type: none;
