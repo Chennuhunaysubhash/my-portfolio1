@@ -11,21 +11,21 @@ const BasicContactInfo = () => {
         <FaEnvelope className="contact-icon" />
         <div className="contact-content">
           <h3>Email</h3>
-          <p>your-email@example.com</p>
+          <p>hunaysubhash97@gmail.com</p>
         </div>
       </div>
       <div className="contact-item">
         <FaPhone className="contact-icon" />
         <div className="contact-content">
           <h3>Phone</h3>
-          <p>(123) 456-7890</p>
+          <p>+91 8074243933</p>
         </div>
       </div>
       <div className="contact-item">
         <FaMapMarkerAlt className="contact-icon" />
         <div className="contact-content">
           <h3>Address</h3>
-          <p>123 Your Street, Your City, Your State, 12345</p>
+          <p>Dno: 8-179, Sivalayam Street, Dirusumarru, Bhimavaram, West Godavari, Andhra Pradesh, India, 534239</p>
         </div>
       </div>
     </div>
