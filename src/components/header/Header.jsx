@@ -1,9 +1,20 @@
-// Header.js
-// eslint-disable-next-line no-unused-vars
-import React from 'react';
+/* eslint-disable no-unused-vars */
+import React, { useEffect } from 'react';
 import './Header.css'; // Import the CSS file
 
 const Header = () => {
+  useEffect(() => {
+    // Smooth scroll behavior
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });
+  }, []);
+
   return (
     <header className="header">
       <h1 className="header-title">My Portfolio</h1>

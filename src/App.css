@@ -1,15 +1,18 @@
 .App {
   text-align: center;
+  transition: all 0.3s ease; /* Smooth transition for all properties */
 }
 
 header {
   background-color: #282c34;
   padding: 20px;
   color: white;
+  transition: padding 0.3s ease, background-color 0.3s ease;
 }
 
 .nav-style {
   margin-top: 10px;
+  transition: display 0.3s ease; /* Smooth transition for display changes */
 }
 
 .nav-style a {
@@ -18,10 +21,9 @@ header {
   margin: 0 15px;
   font-size: 1.2rem;
   padding: 10px;
-  transition: color 0.3s ease, background-color 0.3s ease;
+  transition: color 0.3s ease, background-color 0.3s ease, font-size 0.3s ease, padding 0.3s ease, margin 0.3s ease;
   border-radius: 5px;
 }
-
 
 /* Responsive adjustments for mobile devices */
 @media (max-width: 768px) {
@@ -43,11 +45,25 @@ header {
 
   section {
     padding: 10px;
+    transition: padding 0.3s ease; /* Smooth transition for padding changes */
   }
 
   footer {
     font-size: 0.8rem;
     padding: 8px;
+    transition: padding 0.3s ease, font-size 0.3s ease;
+  }
+
+  form input, form textarea {
+    width: 100%;
+    max-width: 300px;
+    transition: width 0.3s ease, max-width 0.3s ease; /* Smooth transition for width changes */
+  }
+
+  form button {
+    width: 100%;
+    max-width: 300px;
+    transition: width 0.3s ease, max-width 0.3s ease; /* Smooth transition for width changes */
   }
 }
 
@@ -61,6 +77,7 @@ header {
 
   header h1 {
     font-size: 1.5rem;
+    transition: font-size 0.3s ease; /* Smooth transition for font-size changes */
   }
 
   form input, form textarea {
@@ -75,42 +92,7 @@ header {
 
   footer {
     padding: 5px;
+    font-size: 0.8rem;
+    transition: padding 0.3s ease, font-size 0.3s ease;
   }
-}
-
-section {
-  padding: 20px;
-}
-
-form {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
-
-form label {
-  margin-bottom: 10px;
-}
-
-form input, form textarea {
-  margin-bottom: 10px;
-  padding: 10px;
-  width: 100%;
-  max-width: 400px;
-}
-
-form button {
-  padding: 10px 20px;
-  background-color: #61dafb;
-  border: none;
-  cursor: pointer;
-}
-
-footer {
-  background-color: #282c34;
-  color: white;
-  padding: 10px;
-  position: relative; /* Adjusted for mobile */
-  width: 100%;
-  bottom: 0;
 }
