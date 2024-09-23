@@ -31,24 +31,24 @@
 
 /* Container for BasicContactInfo and SocialLinks */
 .contact-details-container {
-  margin-bottom: 40px; /* Space between BasicContactInfo and SocialLinks */
+  margin-bottom: 40px; 
 }
 
 .contact-details-container-head {
-  font-size: 1.8rem; /* Default font size */
-  color: #61dafb; /* Default color */
+  font-size: 1.8rem; 
+  color: #61dafb; 
   margin-bottom: 20px;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 1px;
-  transition: color 0.3s ease, transform 0.3s ease, font-size 0.3s ease; /* Smooth transition for color, size, and transform */
+  transition: color 0.3s ease, transform 0.3s ease, font-size 0.3s ease; 
 }
 
 .contact-details-container-head:hover {
-  font-size: 2rem; /* Increased font size on hover */
-  color: #1ceb6b; /* Change color on hover */
-  transform: translateY(-5px); /* Slightly lift the heading on hover */
-  letter-spacing: 1.5px; /* Slightly increase letter spacing on hover */
+  font-size: 2rem; 
+  color: #1ceb6b; 
+  transform: translateY(-5px); 
+  letter-spacing: 1.5px; 
 }
 
 
