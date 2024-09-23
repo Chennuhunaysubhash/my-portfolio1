@@ -21,6 +21,13 @@ const certifications = [
     year: "2024",
     url: "https://chennuhunaysubhash.github.io/my-portfolio1/sql.pdf",
   },
+  {
+    title: "JAVA",
+    issuer: "HackerRank",
+    year: "2024",
+    url: "https://chennuhunaysubhash.github.io/my-portfolio1/java.pdf",
+  },
+  
   
   // Add more certifications as needed
 ];
