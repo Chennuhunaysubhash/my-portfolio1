@@ -28,7 +28,7 @@ const certifications = [
     url: "https://chennuhunaysubhash.github.io/my-portfolio1/java.pdf",
   },
   {
-    title: "Build an E-Commerce platform using React",
+    title: "Build An E-Commerce Platform Using React",
     issuer: "Scaler",
     year: "2024",
     url: "https://chennuhunaysubhash.github.io/my-portfolio1/reactjs.pdf",
