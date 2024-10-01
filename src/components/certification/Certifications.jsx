@@ -48,7 +48,7 @@ const Certifications = () => {
   return (
     <section className="certifications-section">
       <div className="container">
-        <h2 className="section-title">Certified Achievements</h2>
+        <h2 className="section-title">Certs</h2>
         <ul className="certifications-list">
           {certifications.map((cert, index) => (
             <li key={index} className="certification-item">
