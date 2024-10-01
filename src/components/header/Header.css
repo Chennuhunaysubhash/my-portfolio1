@@ -1,5 +1,8 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
 .header {
-  background-color: #282c34;
+  background-color: #282c34; /* Dark background for contrast */
   color: #fff;
   padding: 10px 20px;
   display: flex;
@@ -9,14 +12,27 @@
 }
 
 .header-title {
-  font-size: 1.8rem;
+  font-size: 2rem; /* Larger font size for logo effect */
   margin: 0;
+  font-family: 'Montserrat', sans-serif; /* Using Montserrat font */
+  background: linear-gradient(45deg, #fdfffd, #ffffff); /* Gradient with new color */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; /* Make text transparent to show gradient */
+  text-shadow: 2px 2px 4px rgba(15, 15, 15, 0.3); /* Add shadow for depth */
+  padding: 10px; /* Add padding for better spacing */
+  border-radius: 5px; /* Slightly rounded corners */
+  transition: transform 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* Hover effect */
+.header-title:hover {
+  transform: scale(1.1); /* Slightly scale up on hover */
 }
 
 .menu-icon {
   display: none; /* Hide menu icon in desktop mode */
   font-size: 1.8rem;
-  color: #61dafb;
+  color: #61dafb; /* Bright color for contrast */
   cursor: pointer;
 }
 

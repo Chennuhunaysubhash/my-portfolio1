@@ -12,7 +12,9 @@
 
 .skills-category {
   margin: 20px;
-  padding: 20px;
+  padding: 20px; /* Adjust padding if needed */
+  width: 250px; /* Set a fixed width for desktop */
+  max-width: 90%; /* Ensure responsiveness */
   background-color: #fff;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -36,6 +38,7 @@
   color: #ff5722;
   transform: scale(1.05);
 }
+
 .section-title {
   font-size: 2.8rem;
   color: #61dafb;
@@ -55,7 +58,6 @@
   display: block;
   margin: 10px auto;
 }
-
 
 .skills-category ul {
   list-style-type: none;
@@ -104,7 +106,8 @@
   }
 
   .skills-category {
-    width: 90%;
+    width: 90%; /* Ensure it takes up most of the screen on mobile */
+    max-width: none; /* Remove max-width if needed */
     margin: 10px 0;
     padding: 15px;
   }
@@ -128,7 +131,7 @@
 
 @media (max-width: 480px) {
   .skills-category {
-    width: 100%;
+    width: 100%; /* Full width on very small screens */
     padding: 10px;
   }
 

@@ -31,7 +31,7 @@ const Header = () => {
 
   return (
     <header className="header">
-      <h1 className="header-title">My Portfolio</h1>
+      <h1 className="header-title">HUNAY SUBHASH</h1>
       <FaBars className="menu-icon" onClick={toggleMenu} /> {/* Menu Icon */}
       <NavMenu isOpen={menuOpen} closeMenu={closeMenu} /> {/* NavMenu Component */}
     </header>
