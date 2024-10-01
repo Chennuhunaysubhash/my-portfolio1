@@ -1,8 +1,21 @@
-/* eslint-disable no-unused-vars */
-import React, { useEffect } from 'react';
+// Header.js
+// eslint-disable-next-line no-unused-vars
+import React, { useState, useEffect } from 'react';
 import './Header.css'; // Import the CSS file
+import NavMenu from './NavMenu'; // Import the NavMenu component
+import { FaBars } from 'react-icons/fa'; // Importing FontAwesome icon
 
 const Header = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
+  };
+
+  const closeMenu = () => {
+    setMenuOpen(false);
+  };
+
   useEffect(() => {
     // Smooth scroll behavior
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
@@ -18,13 +31,8 @@ const Header = () => {
   return (
     <header className="header">
       <h1 className="header-title">My Portfolio</h1>
-      <nav className="nav-style">
-        <a href="#about" className="nav-link">About</a>
-        <a href="#work" className="nav-link">Experience</a>
-        <a href="#skill" className="nav-link">Skill</a>
-        <a href="#certifications" className="nav-link">Certifications</a>
-        <a href="#contact" className="nav-link">Contact</a>
-      </nav>
+      <FaBars className="menu-icon" onClick={toggleMenu} /> {/* Menu Icon */}
+      <NavMenu isOpen={menuOpen} closeMenu={closeMenu} /> {/* NavMenu Component */}
     </header>
   );
 };

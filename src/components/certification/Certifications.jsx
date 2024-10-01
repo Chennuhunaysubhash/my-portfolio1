@@ -33,6 +33,12 @@ const certifications = [
     year: "2024",
     url: "https://chennuhunaysubhash.github.io/my-portfolio1/reactjs.pdf",
   },
+  {
+    title: "Introduction to Cloud Computing with AWS",
+    issuer: "Scaler",
+    year: "2024",
+    url: "https://chennuhunaysubhash.github.io/my-portfolio1/aws.pdf",
+  },
   
   
   // Add more certifications as needed
