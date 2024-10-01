@@ -2,8 +2,9 @@
 // eslint-disable-next-line no-unused-vars
 import React, { useState, useEffect } from 'react';
 import './Header.css'; // Import the CSS file
-import NavMenu from './NavMenu'; // Import the NavMenu component
+
 import { FaBars } from 'react-icons/fa'; // Importing FontAwesome icon
+import NavMenu from './NavMenu/NavMenu';
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
