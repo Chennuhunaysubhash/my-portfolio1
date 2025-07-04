@@ -11,14 +11,14 @@ const BasicContactInfo = () => {
         <FaEnvelope className="contact-icon" />
         <div className="contact-content">
           <h3>Email</h3>
-          <p>hunaysubhash97@gmail.com</p>
+          <p>hunaysubhashchennu@gmail.com</p>
         </div>
       </div>
       <div className="contact-item">
         <FaPhone className="contact-icon" />
         <div className="contact-content">
           <h3>Phone</h3>
-          <p>+91 8074243933</p>
+          <p>+91 9573453733</p>
         </div>
       </div>
       <div className="contact-item">
